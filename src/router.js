@@ -28,7 +28,7 @@ export default new Router({
       meta:{title:'加入公益猫'}
     },
     {
-      path: "/",
+      path: "/mine",
       name: "mine",
       component: mine,
       meta:{title:'我的'},

@@ -1,8 +1,8 @@
 <template>
   <div class="message-main">
     <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" active-text-color="#fc8d59" router>
-      <el-menu-item index="/2/comment">收到的评论</el-menu-item>
-      <el-menu-item index="/2/like">收到的赞</el-menu-item>
+      <el-menu-item index="/mine/2/comment">收到的评论</el-menu-item>
+      <el-menu-item index="/mine/2/like">收到的赞</el-menu-item>
     </el-menu>
     <router-view></router-view>
   </div>
@@ -18,7 +18,7 @@
   export default {
     data() {
       return {
-        activeIndex:'/2/comment'
+        activeIndex:'/mine/2/comment'
       };
     },
   }
